@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 18px;
+    background: #ebebeb;
+    
+}
+.container{
+    width: 90%;
+    margin: auto;
+    
+    padding: 40px 0px;
+}
+.clear {
+    clear: both;
+}
+/* Header */
+header h1 {
+    margin-right: 50%;
+    float: left;
+}
+header h1 span{
+    font-size: .6em;
+    color: #707070;
+    font-weight: lighter;
+}
+.f {
+    padding: 25px;
+    float: left;
+}
+.f:hover{
+    font-weight: bolder;
+    font-size: 20px;
+    color:dodgerblue ;
+}
+hr {
+    margin: 15px 0;
+    background-color: white;
+    border: none;
+    opacity: 50%;
+}
+
+/* Source Code Box */
+.codebox{
+    margin: auto;
+    border-style: inherit;
+}
+.mid {
+    display: flex;
+    margin: 20px 0;
+}
+.language{
+    text-align: center;
+    padding-left: 30px;
+}
+.run, .clear-bt{
+    width: 80px;
+    text-decoration: whitesmoke;
+    padding: 10px;
+    font-weight: bolder;
+    border-radius: 10px;
+    margin: 5px 30px;
+}
+.run{
+    background: #99FF99;
+}
+.run:hover{
+    background:green;
+    transition: 2s;
+    color: white;
+}
+.clear-bt{
+    background: #FF9999;
+}
+.clear-bt:hover{
+    background:red;
+    color: white;
+    transition: 2s ease;
+}
+.in-btn{
+    display: flex;
+}
+/* Footer */
+footer{
+    margin: auto;
+    text-align: center;
+    padding: 30px;
+}
