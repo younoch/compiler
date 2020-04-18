@@ -6,12 +6,10 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     background: #ebebeb;
-    
 }
 .container{
     width: 90%;
     margin: auto;
-    
     padding: 40px 0px;
 }
 .clear {
@@ -19,7 +17,6 @@ body {
 }
 /* Header */
 header h1 {
-    margin-right: 50%;
     float: left;
 }
 header h1 span{
@@ -27,14 +24,17 @@ header h1 span{
     color: #707070;
     font-weight: lighter;
 }
-.f {
-    padding: 25px;
-    float: left;
+.f,.f3{
+    padding: 20px;
+    float: right;
 }
-.f:hover{
+.f:hover, .f3:hover{
     font-weight: bolder;
     font-size: 20px;
     color:dodgerblue ;
+}
+.f3 {
+    font-weight: bold;
 }
 hr {
     margin: 15px 0;
@@ -50,11 +50,33 @@ hr {
 }
 .mid {
     display: flex;
-    margin: 20px 0;
+    margin: 15px 0;
 }
 .language{
     text-align: center;
     padding-left: 30px;
+}
+#language-head{
+    background-color:#62ACB5;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+}
+label select {
+    width: 90px;
+    height: 30px;
+    border-radius: 5px;
+    font-weight: bolder;
+    color: 62ACB5;
+    padding-left: 5px;
+}
+label select option{
+    color: white;
+    background-color:#62ACB5;
+}
+.in-btn{
+    display: flex;
+    margin-top: 10px;
 }
 .run, .clear-bt{
     width: 80px;
@@ -69,7 +91,7 @@ hr {
 }
 .run:hover{
     background:green;
-    transition: 2s;
+    transition: 1s;
     color: white;
 }
 .clear-bt{
@@ -78,10 +100,7 @@ hr {
 .clear-bt:hover{
     background:red;
     color: white;
-    transition: 2s ease;
-}
-.in-btn{
-    display: flex;
+    transition: 1s ease;
 }
 /* Footer */
 footer{

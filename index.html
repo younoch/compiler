@@ -13,18 +13,17 @@
         <!-- Header Part -->
         <header>
             <h1>Light<span> compiler</span></h1>
-            <p class="f"><i class="fas fa-code"></i> new code</p>
-            <p class="f"><i class="fa fa-copy"></i> sample</p>
-            <p style="font-weight: bold;" class="f"><i class="fas fa-user"></i> Sign In</p>
-            <div class="clear"></div>
+                <p class="f3"><i class="fas fa-user"></i> Sign In</p>
+                <p class="f"><i class="fa fa-copy"></i> sample</p>
+                <p class="f"><i class="fas fa-code"></i> new code</p>
+                <div class="clear"></div>
             <hr size="4px">
         </header>
         <!-- Source Code Box -->
         <form>
             <div class="mid">
                 <textarea name="message" rows="10" cols="130" placeholder="</> enter your source code here"></textarea><br>
-                <!-- <input type="text" id="source_code" name="source_code"><br> -->
-                <label class="language">Select<br>Language<br>
+                <label class="language"><div id="language-head">Select<br>Language<br></div>
                     <select id="lang" name="lang">
                         <option value="C">C</option>
                         <option value="Cpp">C++</option>
@@ -32,6 +31,7 @@
                     </select>
                 </label>
             </div>
+            <p>Enter input (stdin) </p>
             <div class="in-btn">
                 <textarea type="text" id="input" rows="5" cols="130" name="input"></textarea><br>
                 <div>
