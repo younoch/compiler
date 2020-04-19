@@ -1,3 +1,4 @@
+/* Universal Part */
 *{
     margin: 0;
     padding: 0;
@@ -14,6 +15,13 @@ body {
 }
 .clear {
     clear: both;
+}
+div textarea {
+border-color: lightgrey;
+border-width: .6em;
+border-style: solid;
+margin: 5px 0 10px 0;
+box-sizing: ;
 }
 /* Header */
 header h1 {
@@ -50,7 +58,6 @@ hr {
 }
 .mid {
     display: flex;
-    margin: 15px 0;
 }
 .language{
     text-align: center;
@@ -62,21 +69,24 @@ hr {
     border-radius: 3px;
     padding: 5px;
 }
+label{
+    position: relative;
+}
 label select {
     width: 90px;
     height: 30px;
     border-radius: 5px;
     font-weight: bolder;
-    color: 62ACB5;
+    color: black;
     padding-left: 5px;
 }
 label select option{
     color: white;
     background-color:#62ACB5;
 }
+/* Input text box */
 .in-btn{
     display: flex;
-    margin-top: 10px;
 }
 .run, .clear-bt{
     width: 80px;
@@ -90,7 +100,7 @@ label select option{
     background: #99FF99;
 }
 .run:hover{
-    background:green;
+    background:#32CD32;
     transition: 1s;
     color: white;
 }
@@ -98,13 +108,26 @@ label select option{
     background: #FF9999;
 }
 .clear-bt:hover{
-    background:red;
+    background:#ff4040;
     color: white;
     transition: 1s ease;
 }
-/* Footer */
+/* Comment & Output Text Boxes */
+.comment_box{
+    border: none;
+    background-color: transparent;
+}
+.br{
+    border-top: 1px dashed black;
+    margin: 5px;
+}
+/* Footer part */
 footer{
     margin: auto;
     text-align: center;
     padding: 30px;
+    background-color: #333333;
+    font-weight: lighter;
+    font-size: 1.4rem;
+    color: white;
 }
