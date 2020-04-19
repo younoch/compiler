@@ -21,7 +21,6 @@ border-color: lightgrey;
 border-width: .6em;
 border-style: solid;
 margin: 5px 0 10px 0;
-box-sizing: ;
 }
 /* Header */
 header h1 {
@@ -112,7 +111,7 @@ label select option{
     color: white;
     transition: 1s ease;
 }
-/* Comment & Output Text Boxes */
+/* Comments & Output Text Boxes */
 .comment_box{
     border: none;
     background-color: transparent;
@@ -123,11 +122,12 @@ label select option{
 }
 /* Footer part */
 footer{
-    margin: auto;
+    margin: 20px 0 5px 0;
     text-align: center;
     padding: 30px;
     background-color: #333333;
     font-weight: lighter;
     font-size: 1.4rem;
     color: white;
+    width: 100%;
 }
