@@ -11,20 +11,23 @@
     <title>Home</title>
 </head>
 <body>
-    <div class="container">
-        <!-- Header Part -->
+    <div class="head-bk">
         <header>
             <h1>Light<span> compiler</span></h1>
                 <p class="f3"><i class="fas fa-user"></i> Sign In</p>
                 <p class="f"><i class="fa fa-copy"></i> sample</p>
                 <p class="f"><i class="fas fa-code"></i> new code</p>
                 <div class="clear"></div>
-            <hr size="4px">
         </header>
+        <hr size="3.5px">
+    </div>
+    <div class="container">
+        <!-- Header Part -->
+
         <!-- Source Code Box -->
         <form>
             <div class="mid">
-                <textarea name="message" rows="10" cols="130" placeholder=" </>enter your source code here"></textarea><br>
+                <textarea name="message" rows="10" cols="149" placeholder=" </>enter your source code here"></textarea><br>
                 <label class="language"><div id="language-head">Select<br>Language<br></div>
                     <select name="lang">
                         <option value="C">C</option>
@@ -36,7 +39,7 @@
             <!-- Input text box -->
             <p><i class="fas fa-download"></i> Enter input (stdin)</p>
             <div class="in-btn">
-                <textarea type="text" rows="5" cols="130" name="input"></textarea><br>
+                <textarea type="text" rows="5" cols="150" name="input"></textarea><br>
                 <div>
                     <input type="submit" value="Run" class="run"><br>
                     <input type="reset" value="Clear" class="clear-bt" >
@@ -44,10 +47,10 @@
                 </div>
                 <p><i class="fas fa-comments"></i> Comments</p>
                 <hr class="br">
-                <textarea class="comment_box" cols="133"></textarea>
+                <textarea class="comment_box" rows="5" cols="153"></textarea>
                 <hr class="br">
                 <p><i class="fas fa-truck-monster"></i> Stdout</p>
-                <textarea class="comment_box" cols="133"></textarea>
+                <textarea class="comment_box" rows="5" cols="153"></textarea>
         </form>
         <!-- Footer Part -->
     </div>

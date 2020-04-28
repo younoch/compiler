@@ -7,22 +7,21 @@ body {
     font-family: 'Roboto', sans-serif;
     font-size: 18px;
     background: #ebebeb;
-}
-.container{
-    width: 90%;
-    margin: auto;
-    padding: 40px 0px;
-}
-.clear {
-    clear: both;
-}
-div textarea {
-border-color: lightgrey;
-border-width: .6em;
-border-style: solid;
-margin: 5px 0 10px 0;
+    margin: 0px;
 }
 /* Header */
+.head-bk{
+    background: white;
+    padding-top: 20px;
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    margin: 0;
+}
+header{
+    width: 90%;
+    margin: auto;
+}
 header h1 {
     float: left;
 }
@@ -44,11 +43,26 @@ header h1 span{
     font-weight: bold;
 }
 hr {
-    margin: 15px 0;
-    background-color: white;
+    margin-top: 5px 0;
+    background-color: rgba(128, 128, 128, 0.445);
     border: none;
-    opacity: 50%;
 }
+/* Container */
+.container{
+    width: 90%;
+    margin: auto;
+    padding: 140px 60px 0px 40px;
+}
+.clear {
+    clear: both;
+}
+div textarea {
+border-color: lightgrey;
+border-width: .4em;
+border-style: solid;
+margin: 5px 0 10px 0;
+}
+
 
 /* Source Code Box */
 .codebox{
@@ -70,6 +84,7 @@ hr {
 }
 label{
     position: relative;
+    margin-top: 8px;
 }
 label select {
     width: 90px;
